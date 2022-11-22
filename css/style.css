@@ -1319,8 +1319,8 @@ input[name="addCard"]{
     z-index: 11111;
 }
 .list-card-item-content{
-    width: 250px;
-    margin: 0 auto;
+    width: 220px;
+    margin-left: 50px;
 }
 .list-card-item-content-title{
     font-family: 'Lobster', cursive;
@@ -1348,7 +1348,7 @@ input[name="addCard"]{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:0 10px;
+    margin-right: 20px;
     margin-bottom: 10px;
     border: 2px solid #ff800062;
     height: 30px;
@@ -1362,17 +1362,21 @@ input[name="addCard"]{
 }
 .cout {
     width: 60px;
+    margin-right: 40px;
     margin-bottom: 20px;
     border-radius: 20px;
     padding: 2px 5px;
     outline: none;
-    border:2px solid #ff8000;
+    border:2px solid #a7825d;
 }
 .add-card{
     padding:4px 7px;
     background-color: #ff8000;
     border: none;
     border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    
 }
 .list-card-item-content .remove{
     display: none;
