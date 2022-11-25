@@ -1301,6 +1301,15 @@ input[name="addCard"]{
     background-color: #e0dcdc67;
     border-radius: 30px;
 }
+.list-card-item:hover .list-card-item-img img {
+    transform:scale(1.09) ;
+    transition: all 1s;
+}
+.list-card-item:hover .add-card {
+    background-color: red;
+    color: #fff;
+    transition: 1s;
+}
 .list-card-item-img {
     display: flex;
     justify-content: center;
@@ -1315,6 +1324,7 @@ input[name="addCard"]{
     border-radius: 30px;
 }
 .list-card-item-img img{
+    transition: 1s;
     height: 200px;
     z-index: 11111;
 }
@@ -1376,6 +1386,7 @@ input[name="addCard"]{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    transition: 1s;
     
 }
 .list-card-item-content .remove{
